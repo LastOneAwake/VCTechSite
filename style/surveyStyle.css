@@ -1,0 +1,101 @@
+* {
+font-family: 'Roboto Slab', serif;
+}
+body {
+background-image: url("/images/surveyEdit.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    max-height: 100%;
+}
+label {
+font-family: 'Roboto Slab', serif;
+    font-weight: 400;
+    font-size: 2em;
+    color: #fcfcfc;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.64);
+}
+input[type="text"]{
+border-radius: 8px;
+    width: 300px;
+}
+textarea{
+border-radius: 8px;
+    border: none;
+    
+}
+#everythingHolder {
+margin-top: 15vh;
+    text-align: center;  
+}
+button {
+    margin-top: 5vh;
+    height: 5vh;
+    width: 150px;
+    border-radius: .5em;
+    font-size: 1.5em;
+}
+
+/*
+=================================================================================Responsive fun==================
+**************************************************
+*/
+
+
+/*
+=================mbp stuff==================
+**************************************************
+*/
+@media (max-width: 1300px) {
+    
+}
+
+
+
+/*
+=================LG nav position==================
+**************************************************
+*/
+@media (max-width: 1010px) {
+
+}
+
+
+/*
+=================Sub-LG-IMG sizes==================
+**************************************************
+*/
+@media (max-width: 950px) {
+        #everythingHolder {
+            margin-top: 2.5vh;
+            text-align: center;  
+        }
+        button {
+            margin-top: 2.5vh;
+            height: 7.5vh;
+            width: 150px;
+            border-radius: .5em;
+            font-size: 1.5em;
+        }
+        
+        input[type="text"]{
+            border-radius: 8px;
+            width: 300px;
+            max-width: 80vw;
+            height: 33px;
+}
+    
+}
+
+
+/*
+=================Small Phones==================
+**************************************************
+*/
+
+@media (max-width: 750px) {
+
+}
